@@ -5,6 +5,9 @@ return {
       { "<leader>/", false },
       { "<leader><leader>", false },
       { "<leader>fc", "<cmd>Telescope grep_string<cr>", desc = "Find word under cursor" },
+      { "<leader>fl", "<cmd>Telescope resume<cr>", desc = "Resume Find" },
+      { "<leader>fd", "<cmd>Telescope diagnostics bufnr=0<cr>", desc = "Document diagnostics" },
+      { "<leader>fD", "<cmd>Telescope diagnostics<cr>", desc = "Workspace diagnostics" },
       {
         "<leader>fw",
         function()
